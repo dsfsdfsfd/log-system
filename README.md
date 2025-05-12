@@ -6,11 +6,6 @@ A log analysis system with integrated anomaly detection features.
 
 ```
 log-system/
-├── data/                      # Directory for log data
-│   ├── HDFS_2k.log            # Sample HDFS log file
-│   └── spell_results/         # Log analysis results
-│       ├── HDFS_2k.log_structured.csv
-│       └── HDFS_2k.log_templates.csv
 ├── src/
 │   └── log_system/            # Main source code
 │       ├── config.py          # System configuration
